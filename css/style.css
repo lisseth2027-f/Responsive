@@ -45,15 +45,15 @@
     }
    
 }
-@media(min-width: 492){
+@media(min-width: 492px){
     .container{
         grid-template-columns:200px 1fr 200px;
         grid-template-rows: auto 1fr auto;
         grid-template-areas: 
-        "header header"
-        "sidebar content"
-        "sidebar content"
-        "footer footer"
+        "header header header"
+        "sidebar content content"
+        "sidebar content content"
+        "footer footer footer"
         ;
     }
 }
